@@ -9,7 +9,7 @@ html {
 }
 
 .img-flex {
-  display: inline-block;
+  display: block;
   width: 100%;
   position: relative;
 }
@@ -24,13 +24,15 @@ body {
   margin: 10px;
   width: 100%;
   position: absolute;
-  bottom: 28em;
+  top: 1em;
+  left: 1rem;
+  transform: translate(5%, 5%);
 }
 
 .circle {
   float: left;
   overflow: hidden;
-  width: 100%;
+  width: 50%;
 }
 
 .banner {
@@ -38,7 +40,8 @@ body {
 }
 
 .banner-subject {
-  margin: 0 10px;
+  margin: 0 50px;
+  float: right;
 }
 
 .banner-body h2 {
@@ -72,7 +75,6 @@ body {
   background-color: #000;
   border-color: #000;
 }
-
 
 .btn-big {
   font-size: 1.5rem;
